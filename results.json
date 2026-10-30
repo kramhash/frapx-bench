@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-30",
+  "results": [
+    {
+      "id": "frapx",
+      "label": "frapx (`@frapx/fx-canvas`)",
+      "versions": {
+        "@frapx/fx-canvas": "0.12.0"
+      },
+      "min": 38066,
+      "gzip": 11180,
+      "brotli": 10036
+    },
+    {
+      "id": "frapx-react",
+      "label": "frapx React (`@frapx/react-canvas`), React excluded",
+      "versions": {
+        "@frapx/react-canvas": "0.9.0"
+      },
+      "min": 43360,
+      "gzip": 13073,
+      "brotli": 11735
+    },
+    {
+      "id": "three",
+      "label": "three.js",
+      "versions": {
+        "three": "0.186.1"
+      },
+      "min": 529753,
+      "gzip": 133021,
+      "brotli": 109780
+    },
+    {
+      "id": "babylon",
+      "label": "Babylon.js (`ThinEngine` + `EffectRenderer`)",
+      "versions": {
+        "@babylonjs/core": "9.32.1"
+      },
+      "min": 177106,
+      "gzip": 44947,
+      "brotli": 38632
+    },
+    {
+      "id": "ogl",
+      "label": "OGL",
+      "versions": {
+        "ogl": "1.0.11"
+      },
+      "min": 44961,
+      "gzip": 13147,
+      "brotli": 11084
+    },
+    {
+      "id": "twgl",
+      "label": "twgl.js",
+      "versions": {
+        "twgl.js": "7.0.0"
+      },
+      "min": 32201,
+      "gzip": 11205,
+      "brotli": 9815
+    }
+  ]
+}

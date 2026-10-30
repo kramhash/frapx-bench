@@ -1,0 +1,8 @@
+# esbuild ships its binary via optionalDependencies; its install script is not needed.
+allowBuilds:
+  esbuild: false
+
+# frapx is measured at the version just published; other packages keep the
+# release-age safeguard.
+minimumReleaseAgeExclude:
+  - "@frapx/*"

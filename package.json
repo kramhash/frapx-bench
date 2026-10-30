@@ -1,0 +1,24 @@
+{
+  "name": "frapx-bench",
+  "private": true,
+  "type": "module",
+  "description": "Bundle size of the same full-screen fragment shader drawn with frapx, three.js, Babylon.js, OGL and twgl.js",
+  "scripts": {
+    "measure": "node scripts/measure.mjs",
+    "serve": "node scripts/measure.mjs --serve"
+  },
+  "dependencies": {
+    "@babylonjs/core": "9.32.1",
+    "@frapx/fx-canvas": "0.12.0",
+    "@frapx/react-canvas": "0.9.0",
+    "ogl": "1.0.11",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "three": "0.186.1",
+    "twgl.js": "7.0.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
+  },
+  "packageManager": "pnpm@12.16.1"
+}
